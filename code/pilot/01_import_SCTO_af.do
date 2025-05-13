@@ -19,7 +19,7 @@
 di "current user: `c(username)'"
 
 if "`c(username)'" == "sararestrepotamayo"{
-	global github_dofiles "/Users/sararestrepotamayo/Documents/GitHub/guinea_bissau/code"
+	global github_dofiles "/Users/sararestrepotamayo/Documents/GitHub/guinea_bissau/guinea_bissau/code"
 }
 
 do "$github_dofiles/00_paths.do" 

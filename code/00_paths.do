@@ -25,7 +25,10 @@ di "current user: `c(username)'"
 
 
 if "`c(username)'" == "sararestrepotamayo"{
-	global github_dofiles "/Users/sararestrepotamayo/Documents/GitHub/guinea_bissau/code"
+	global github_dofiles "/Users/sararestrepotamayo/Documents/GitHub/guinea_bissau/guinea_bissau/code"
 	global path "/Users/sararestrepotamayo/Dropbox/Examples"
 	global raw_data "$path/data/raw_data"
+	global intermediate_data "$path/data/intermediate_data"
+	global use_data "$path/data/use_data"
+
 }
